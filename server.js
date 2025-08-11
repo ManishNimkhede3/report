@@ -41,7 +41,7 @@ const swaggerOptions = {
         },
         servers: [
             {
-                url: 'https://report-q885.onrender.com',
+                url: 'https://report-1-gt4z.onrender.com',
                 description: 'Production Server'
             }
         ],
@@ -76,5 +76,6 @@ app.get('/', (req, res) => {
 // Start the server
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}.`);
-    console.log(`API documentation available at https://report-q885.onrender.com/api-docs`);
+    console.log(`API documentation available at https://report-1-gt4z.onrender.com/api-docs`);
 });
+
